@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Personal Agent · 资料与记忆纸面演练记录</title>
+<style>
+:root{color-scheme:light;--ink:#21332f;--muted:#62736d;--line:#dce5df;--accent:#23654d;--wash:#edf3ed}
+*{box-sizing:border-box}body{margin:0;background:#f3f6f2;color:var(--ink);font:16px/1.8 system-ui,-apple-system,"PingFang SC",sans-serif}main{max-width:1080px;margin:auto;padding:40px 26px 72px}header{padding-bottom:24px;border-bottom:2px solid var(--accent)}h1{font-size:32px;line-height:1.35;margin:12px 0}h2{font-size:23px;margin:0 0 14px}h3{font-size:18px;margin:22px 0 8px}p{margin:10px 0}section{background:white;border:1px solid var(--line);border-radius:12px;margin-top:22px;padding:24px}a{color:var(--accent);text-underline-offset:3px}.badge{display:inline-block;border:1px solid #b9d3c3;border-radius:20px;background:#e5f0e8;color:var(--accent);padding:3px 12px;font-size:13px}.meta,footer{color:var(--muted);font-size:14px}.note{border-left:3px solid var(--accent);padding:10px 16px;background:#f4f7f2}.warning{border-color:#bb985d;background:#fcf7ee}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:620px;font-size:14px}th,td{padding:11px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{color:var(--accent);background:var(--wash)}blockquote{margin:10px 0;padding:10px 16px;border-left:3px solid #c4d5c9;background:#f6f8f5}blockquote p{margin:4px 0}ol,ul{padding-left:24px}li{margin:6px 0}.label{font-weight:650;color:var(--accent)}.result{background:#f4f7f2;border-radius:6px;padding:10px 16px}.nav{display:flex;flex-wrap:wrap;gap:8px}.nav a{border:1px solid var(--line);padding:3px 9px;border-radius:6px;text-decoration:none}footer{margin-top:24px}
+@media(max-width:650px){main{padding:24px 14px 48px}section{padding:18px}h1{font-size:27px}h2{font-size:21px}}
+@media print{body{background:white;font-size:10.5pt}main{padding:0;max-width:none}section{border:0;padding:12px 0;margin-top:12px}h2,h3{break-after:avoid}tr,blockquote,.result{break-inside:avoid}.scroll{overflow:visible}table{min-width:0;font-size:9pt}th,td{padding:6px}.nav{display:none}a{color:inherit}}
+</style>
+</head>
+<body><main>
+<header><span class="badge">13项纸面情节已完成 · 连续情节已展开 · 产品验收仍待执行</span>
+<h1>资料使用与记忆更新<br>纸面演练记录</h1>
+<p class="meta">日期：2026年10月30日（北京时间）｜对应：固定测试情节 v1｜当前阶段：需求梳理</p>
+<p class="note">后续决定：用户已采用包含微信双向对话与自主扩展的第一版范围，并要求等待材料，收到后先阅读再制作。本文保留当时v1的演练基线和过程，不覆盖历史；当前状态以<a href="personal-agent-v1-confirmation.html">已确认范围与总验收</a>为准。</p>
+<p>沿用已采用的规则，完成剩余情节的逐步回应与状态核对。没有发现必须由用户重新选择的规则冲突。</p>
+<p class="note warning"><strong>以下均为演练记录。</strong>T01使用此前真实对话中的摘要和用户确认；T02使用已展示的示例；T03—T13及连续情节由助手按完整可见脚本进行纸面推演和自查。引号中的“用户输入”均来自测试脚本，不是用户在本轮新作出的决定。没有独立被测产品、真实消息投递、跨时间试验或原文修改。</p>
+<p>“输出符合规则”表示本次写出的回应和纸面状态能够衔接；不代表长期记忆能力已通过验收。所有实际产品用例继续保持待验，不以助手自查替代用户评价或真实证据。</p>
+</header>
+
+<section id="start"><h2>起点与结果概览</h2>
+<p>每个独立用例从同一基线开始：personal agent处于需求梳理、持续探索、无固定截止日期；早报北京时间10点、允许5分钟以内延迟；第一版微信单向接收，讨论在agent中进行；原文默认不动。连续情节从基线开始，中途不重置。</p>
+<div class="scroll"><table><thead><tr><th>情节</th><th>本次纸面结果</th><th>仍缺的实际证据</th></tr></thead><tbody>
+<tr><td>T01 聊天建摘要</td><td>摘要已在对话中展示，用户明确反馈没有错误或遗漏。</td><td>不能由本轮确认推导出长期接续可靠。</td></tr>
+<tr><td>T02 资料范围</td><td>已展示当前项目接续和虚构项目B隔离的回应。</td><td>真实后续讨论的接续与项目隔离。</td></tr>
+<tr><td>T03—T13</td><td>下文写出逐步回应和结果状态，自查与已采用标准一致。</td><td>实际系统行为、持久性、原文前后核对及可查看记忆。</td></tr>
+<tr><td>连续情节</td><td>补充、纠错、撤回、遗忘和再次接续可在纸面上连续衔接。</td><td>隔一段时间或新讨论后，不附带正确答案的实际接续。</td></tr>
+</tbody></table></div>
+<p class="nav"><a href="#t01">T01</a><a href="#t02">T02</a><a href="#t03">T03</a><a href="#t04">T04</a><a href="#t05">T05</a><a href="#t06">T06</a><a href="#t07">T07</a><a href="#t08">T08</a><a href="#t09">T09</a><a href="#t10">T10</a><a href="#t11">T11</a><a href="#t12">T12</a><a href="#t13">T13</a><a href="#chain">连续情节</a><a href="#handoff">项目接续</a></p>
+</section>
+
+<section id="t01"><h2>T01 · 只有聊天，没有文档</h2>
+<p class="label">已有对话记录</p><p>输入是仅凭已经确认的聊天整理项目现状。输出区分目标、阶段、首个验收场景、接收方式、记忆边界、待验证项和待办；明确AI资讯追踪属于主项目的应用场景，不能代替独立第二项目。用户反馈：“没有，你继续吧。”</p>
+<p class="result"><strong>核对结果：</strong>本轮摘要获得用户确认；没有要求补文档才开始，也没有编造截止日期。待讨论事项与待验证效果需要继续分开标注，不能把效果未知当作决定尚未作出。</p>
+</section>
+
+<section id="t02"><h2>T02 · 当前项目可接续，另一个项目不混用</h2>
+<p class="label">已有展示</p><p>虚构资料A提出三种早报标题，尚未选定。当前项目再次询问时，回应保留“候选、未选定”的状态。切换到虚构项目B“整理旅行照片”时，只说明B的目标以及范围、目的、时间尚不明确，不导入早报标题与10点约定。</p>
+<p class="result"><strong>核对结果：</strong>展示的回应符合资料范围规则。标题具体名称仅为当时演练补充的示例，不属于真实项目命名方案；项目B仍是测试素材。没有进行真实跨时间或跨项目产品检查。</p>
+</section>
+
+<section id="t03"><h2>T03 · “仅这次使用”不产生长期偏好</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>资料B含“模型速览”标题样式和页尾测试口号建议；输入明确仅本次使用，要求改写文案。</li>
+<li>本次回应：“标题可改为‘AI更新速读’，页尾可写‘快速看懂今天值得关注的变化’。这两句只作为本次文案成果。”</li>
+<li>模拟任务结束，下一次要求按已定规则整理项目摘要和早报要求。</li>
+<li>后续回应：“项目仍在需求梳理；早报10点发送、阅读目标5—10分钟；内容聚焦重要模型和技术更新，标出值得试的模型。标题及页尾口号没有新增已确认要求。”</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>本次文案完成；后续纸面摘要没有标题、口号或由此推断的偏好。模拟输出保存在本演练文档中作为测试证据，不得因这份记录存在而将其再次提取为真实项目偏好。实际长期排除效果待验。</p>
+</section>
+
+<section id="t04"><h2>T04 · 建议、模拟与真实决定分开</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>资料C建议微信双向讨论、周五上线；模拟用户只要求评估。</li>
+<li>回应：“这两项进入候选讨论。当前第一版仍是单向接收，无固定截止日期，不增加周五上线任务。”</li>
+<li>模拟用户要求演练“假设我说改成9点”。</li>
+<li>回应：“在这个假设分支里，时间会更新为9点；真实项目的10点约定保持原样。”</li>
+<li>再次询问实际决定时，回应：“10点，第一版微信单向接收，项目无固定截止日期。”</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>三个身份清楚；没有将评估请求转成采纳或执行授权，也没有把模拟回复当成真实用户决定。</p>
+</section>
+
+<section id="t05"><h2>T05 · 原文默认不改，明确要求后只改指定位置</h2>
+<p class="label">纸面内容前后对照</p>
+<div class="scroll"><table><thead><tr><th>步骤</th><th>虚构原文D</th><th>独立摘要／回应</th></tr></thead><tbody>
+<tr><td>收到D</td><td>早报9点；微信双向讨论。</td><td>资料与已定的10点、单向接收存在冲突。</td></tr>
+<tr><td>要求整理问题、更新摘要</td><td>早报9点；微信双向讨论。</td><td>保持已定约定，新增冲突说明；原文不变。</td></tr>
+<tr><td>明确要求只将原文9点改成10点</td><td>早报10点；微信双向讨论。</td><td>时间文字完成指定改动；原文的双向讨论仍是未采用的资料内容，摘要不据此改范围。</td></tr>
+</tbody></table></div>
+<p class="result"><strong>核对结果：</strong>纸面上第一次无原文改动，第二次仅改指定时间。保留双向文字不等于采用双向方案。这里没有实际编辑D文件，未来需用真实原文前后对照验收。</p>
+</section>
+
+<section id="t06"><h2>T06 · 冲突待核对，沉默不覆盖决定</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>资料E写9点、微信直接回复、周五完成。</li>
+<li>回应：“发现三处冲突，当前摘要仍保留10点、单向接收和无固定期限。先确认时间：资料写9点，是否仍按10点？”这是剧本中的提问，不是发给用户的新待答问题。</li>
+<li>模拟未收到回答：纸面状态不变，不增加期限和任务。</li>
+<li>脚本内用户一次说明：仍按10点，双向以后考虑，也没有周五期限。</li>
+<li>回应：“三处已核对，已定约定不变；双向方案留作未来候选，没有当前上线承诺。”不再逐条重复询问。</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>冲突有提示；没有把资料的新旧顺序当作覆盖理由；未回复不等于同意，多项明确回复一次整理。</p>
+</section>
+
+<section id="t07"><h2>T07 · 撤回资料，信息与任务分别处理</h2>
+<p class="label">模拟输入</p><p>F提出可能需要纸质提交、每期最多突出一个模型。脚本内用户单独确认后一条，并明确建立“核实纸质提交要求”待办。之后撤回F，再明确取消该待办。</p>
+<div class="scroll"><table><thead><tr><th>时点</th><th>信息状态</th><th>任务状态</th></tr></thead><tbody>
+<tr><td>单独确认后</td><td>10点等基线保留；最多突出一个模型成为本用例内的明确决定；纸质要求仍未核实。</td><td>核实纸质要求：待办。</td></tr>
+<tr><td>F撤回后</td><td>停止引用F；纸质要求不再作为项目依据；单独确认的呈现规则保留。</td><td>仍列待办，并备注“依据已撤回，待确认是否调整”；没有自动取消或完成。</td></tr>
+<tr><td>明确要求取消后</td><td>独立确认信息继续保留。</td><td>取消；后续纸面跟进清单移除该项，不再催办。</td></tr>
+</tbody></table></div>
+<p class="result"><strong>核对结果：</strong>撤回不是全部清空；任务的备注不新设一个任务状态，继续使用既定的待办／取消状态。现实中没有创建或取消任何任务、提醒。</p>
+</section>
+
+<section id="t08"><h2>T08 · 隐私默认不记，明确要求后按范围处理</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>G含正常项目内容与“测试地址A”这一虚构私人住址占位；仅要求提炼项目内容。</li>
+<li>本次回应：“项目摘要只保留与当前任务有关的内容，未将私人地址加入长期记忆，也未推断生活偏好。”纸面摘要中不含地址字段。</li>
+<li>脚本内用户随后明确要求，仅在测试项目中记住占位地址，用于格式演练。</li>
+<li>纸面记录变为：“用途：地址格式演练；范围：本测试项目；内容：用户明确指定的测试占位。”不提升为全局信息。</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>资料可参考和隐私可长期记录分别判断；只有第二次明确要求才产生本用例内记录。全程没有使用真实个人信息，也没有创建真实隐私记忆。</p>
+</section>
+
+<section id="t09"><h2>T09 · 临时约束到期，进度不凭沉默改变</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>模拟周A：本周每次15分钟，资料整理进行中。</li>
+<li>周A询问下一步时回应：“这次先在15分钟内整理一页资料中的已确定事项，结束条件是列出可核对的条目和不确定项。”这是本用例中给出的建议动作，不是新增真实任务。</li>
+<li>模拟周B，无进度反馈，重新安排。</li>
+<li>回应：“资料整理上次确认进行中，当前进展未核实；15分钟只适用于周A。先确认你这次可投入多久，再决定动作大小。”这是剧本提问，不要求真实用户此刻回答。</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>周B未沿用旧时间约束；没有把无更新判成未做、停滞、完成或取消。只核实影响当前安排的信息，没有要求重新介绍全部项目。</p>
+</section>
+
+<section id="t10"><h2>T10 · 纠错不制造变更历史</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>测试夹具故意把已定时间误写为9点，旧资料H也含9点。</li>
+<li>脚本内用户指出一直是10点，未改变过决定。</li>
+<li>回应：“当前时间纠正为10点，9点是记录错误，不作为用户曾采纳的决定。”</li>
+<li>重读H并再次询问时回应：“当前仍是10点；没有已确认的从9点改为10点的决定变更。H中的时间不能覆盖这次纠正。”</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>纸面当前摘要和后续回答一致，没有错误的用户历史。保留纠错说明用于避免复发，不将错误继续当成决策依据。</p>
+</section>
+
+<section id="t11"><h2>T11 · 主动改决定，与纠错分开</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>脚本内用户因作息调整，明确把本测试时间从10点改为9点。</li>
+<li>回应：“本测试当前采用9点；变更原因是用户明确说明的作息调整，之前采用10点。”</li>
+<li>重读写10点的旧资料后回应：“当前测试仍按新决定9点，不因旧资料恢复10点。”</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>有真实的模拟变更就保留必要历史，不误标为记错；不补充未说明的作息细节。用例结束不改变真实项目的10点。</p>
+</section>
+
+<section id="t12"><h2>T12 · 遗忘后不因旧资料或普通追问恢复</h2>
+<p class="label">模拟输入与本次回应</p><ol>
+<li>脚本先明确记住测试代号，随后要求忘掉。</li>
+<li>遗忘后的回应：“这个代号退出后续建议和提醒，旧资料不自动恢复它。”</li>
+<li>旧资料I重新出现，要求推荐标题。回应只给出不依赖该代号的通用候选，例如“今日AI要点”，并标注为候选，不称为已选标题。</li>
+<li>普通追问“之前那个代号是什么？”时回应：“你已要求忘掉该信息，我不会从旧资料中重新取回并复述。”不说出代号，也不要求用户现在恢复。</li>
+<li>脚本最后明确重新提供代号并要求记住，回应：“按这次明确要求，在本测试项目中重新记录。”</li>
+</ol>
+<p class="result"><strong>核对结果：</strong>遗忘后的阶段没有恢复或复述内容，明确重新记住后才恢复。本演练脚本中的原始文字仍存在，不声称完成底层删除，也不把测试记录重新转成真实记忆。</p>
+</section>
+
+<section id="t13"><h2>T13 · 能查看，且纠正会改变适用范围</h2>
+<p class="label">模拟展示与纠正</p>
+<div class="scroll"><table><thead><tr><th>记忆条目</th><th>当前适用范围</th><th>依据与身份</th></tr></thead><tbody>
+<tr><td>第一版同时了解多个项目，每次推进一个任务</td><td>personal agent第一版工作方式</td><td>用户已明确采用。</td></tr>
+<tr><td>10点早报</td><td>AI资讯早报场景</td><td>用户已明确确认；不是所有项目的默认日程。</td></tr>
+<tr><td>目前不进入技术实现</td><td>personal agent当前需求梳理阶段</td><td>当前明确约束，不推断为永远不开发。</td></tr>
+<tr><td>跨时间接续是否可靠</td><td>后续实际验收</td><td>待验证，不列为已通过。</td></tr>
+</tbody></table></div>
+<p>故意设置“所有项目都10点发早报”后，脚本内用户纠正归属。回应：“已将10点约定限定到AI资讯早报场景。”再次展示采用上表范围；切换到测试项目B，不出现10点日程。</p>
+<p class="result"><strong>核对结果：</strong>记忆、范围、证据身份可区分；重要纠正有反馈。没有为不存在的文档编造来源，没有逐项重复索要确认。</p>
+</section>
+
+<section id="chain"><h2>连续情节 · 同一条纸面状态持续推进</h2>
+<p>以下各步沿用前一步结果，不回到独立用例起点。步骤5中“隔一段时间／新讨论”只进行纸面推演，未实际发生跨会话试验。</p>
+<div class="scroll"><table><thead><tr><th>步骤</th><th>本次模拟回应／状态</th><th>后续保持的约束</th></tr></thead><tbody>
+<tr><td>1．补充J</td><td>“9点与已定10点冲突；最多突出一个模型、纸质提交是待确认内容。原文不改。”</td><td>10点、单向接收、无固定期限仍有效。</td></tr>
+<tr><td>2．核对并建立任务</td><td>“9点是资料错误；本轮单独确认最多突出一个模型；核实纸质要求列待办。”</td><td>9点不成为决定历史；呈现规则有独立用户依据，任务未完成。</td></tr>
+<tr><td>3a．撤回J</td><td>“停止引用J，清理纸质要求依据；呈现规则保留；核实任务备注依据撤回，待确认是否调整。”</td><td>没有自动取消任务，也没有连带清空独立确认。</td></tr>
+<tr><td>3b．明确取消</td><td>“核实任务改为取消，从后续跟进中移除。”</td><td>不再催办；不声称已经核实成功。</td></tr>
+<tr><td>4．遗忘并重读J</td><td>“停止使用本轮呈现规则，不从J恢复。J已撤回，里面的9点与纸质要求也不重新进入依据。”</td><td>独立确认不妨碍用户后来主动遗忘；遗忘后的旧来源不会复活决定。</td></tr>
+<tr><td>5．再次接续</td><td>纸面输出：“项目仍处需求梳理、无固定期限；早报10点，第一版微信单向接收。继续按既定范围推进，没有新增标题配额或纸质要求待办。”</td><td>不带入9点、已遗忘呈现规则、撤回依据或取消任务；真实跨时间结果仍待证据。</td></tr>
+<tr><td>6．切换B</td><td>“测试项目B当前只明确整理旅行照片，具体范围与时间未明确。”</td><td>不导入J、早报约定或本轮测试变更。</td></tr>
+</tbody></table></div>
+<p class="result"><strong>纸面核对：</strong>当前摘要、任务清单和跟进安排没有相互矛盾。步骤5不能直接标为实际通过；如果未来确实缺少可用背景，应说明缺口，不靠猜测给出正确答案。</p>
+</section>
+
+<section id="findings"><h2>演练发现与后续检查重点</h2>
+<p>没有发现需要改变已采用规则的必需需求缺口。下列细节是现有规则在实际验收中需要特别观察的表现，不新增范围：</p>
+<ul>
+<li><strong>测试记录本身也有身份。</strong>它可以用于查看演练过程，但其中的临时文案、模拟隐私与假设决定不能因文档长期存在而变成真实偏好。</li>
+<li><strong>撤回与遗忘要检查任务及提醒。</strong>不能只改一段摘要，仍在其他位置继续使用旧依据或催办已取消任务。</li>
+<li><strong>变更与纠错不能混淆。</strong>纸面输出都可能得到正确时间，但一项要求保留真实变更原因，另一项要求去掉虚构决定历史。</li>
+<li><strong>检查后续行为。</strong>“已忘记”“已更新”等回复只能证明作了回应；是否真的生效，需要在后续相关讨论和旧资料重现时检查。</li>
+</ul>
+<p>本次自查未见规则之间的必然冲突，也没有实际产品失败记录可供修复。不存在的产品测试结果不填写“通过率”，不将纸面顺畅当成可靠性证明。</p>
+</section>
+
+<section id="handoff"><h2>项目现状与下一步</h2>
+<div class="scroll"><table><thead><tr><th>事项</th><th>当前状态</th><th>下一步或条件</th></tr></thead><tbody>
+<tr><td>资料与记忆规则、13项标准</td><td>已采用</td><td>沿用现有决定，不重复要求用户逐条批准。</td></tr>
+<tr><td>固定情节与本轮纸面演练</td><td>文档与推演完成</td><td>作为以后同一口径的检查材料；用户仅明确确认过T01摘要及此前总体模拟。</td></tr>
+<tr><td>跨时间记忆、资料隔离与遗忘实效</td><td>待实际验收</td><td>等有实际可用的personal agent再检查；不设置虚构通过结论。</td></tr>
+<tr><td>早报7天观察与微信实际送达</td><td>等待可用产品</td><td>按原场景标准验收；本轮没有启动观察、接入微信或安排发送。</td></tr>
+<tr><td>真实多项目排序</td><td>缺独立第二项目材料</td><td>以后出现真实独立事项时再验证；虚构旅行照片项目不能补足该证据。</td></tr>
+<tr><td>框架选择、技术实现与接入</td><td>当前阶段暂缓</td><td>当前约束没有改变，不因纸面演练完成自动进入实施。</td></tr>
+</tbody></table></div>
+<p><strong>后续衔接已整理：</strong>用personal agent现有待办检查优先级、动作拆解和反馈后的状态更新，并整合用户新增的自主扩展能力目标，见<a href="personal-agent-v1-confirmation.html">第一版整体验收与范围确认稿</a>。其中新增第一版范围等待整体确认；纸面情节不替代真实多项目排序和实际产品验收。</p>
+<p>用户已授权：在当前目标与既定边界内，没有必须确认的事项就继续推进。一次一个问题仍适用于真正缺少关键输入时；不把本条解释成修改目标、对外发送或进入技术实现的授权。</p>
+<p><a href="personal-agent-memory-tests.html">固定测试情节与通过条件</a> · <a href="personal-agent-mvp-scope.html">第一版范围</a> · <a href="ai-news-acceptance.html">早报场景验收</a></p>
+</section>
+<footer>本次记录保存于独立项目文档。所有测试素材仅用于需求演练，真实早报约定仍为北京时间10点，项目仍无固定截止日期。</footer>
+</main></body></html>

@@ -1,0 +1,101 @@
+{
+  "repository": "https://github.com/zhujy9413-commits/personal-agent",
+  "visibility": "private",
+  "feishu_parent": "https://my.feishu.cn/wiki/Zsu4wg4ijizVMdkGo11cYlERnkg",
+  "project_status": "等待材料，收到后先阅读核对再制作",
+  "documents": [
+    {
+      "source": "personal-agent-v1-confirmation.html",
+      "markdown": "docs/01-第一版范围与总验收.md",
+      "title": "01-第一版范围与总验收",
+      "source_sha256": "8555be003610536951e0676d446aaaa6c54dbef3c4f381c95ef764cd4ea8105d",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "364c18801df8b22487e257335a2668a0d1858821b9f6270b463da8f9e8e4efea",
+      "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65"
+    },
+    {
+      "source": "personal-agent-mvp-scope.html",
+      "markdown": "docs/02-MVP范围与验收标准.md",
+      "title": "02-MVP范围与验收标准",
+      "source_sha256": "3aae0359f4304bfea4ba5763850ff1e8a5df0c2941ba18f30092f61a627f8c4c",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/ImUOwKFLpiLcGTkIfLrcuZidnob",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334",
+      "feishu_import_markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334"
+    },
+    {
+      "source": "ai-news-acceptance.html",
+      "markdown": "docs/03-AI早报场景验收.md",
+      "title": "03-AI早报场景验收",
+      "source_sha256": "27b743407960d971feffa085c0271773d388f70a4ecb43e5d6e237c476a81362",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/DufJwCp8si8z15kYGatcaEwSnub",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4",
+      "feishu_import_markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4"
+    },
+    {
+      "source": "personal-agent-memory-tests.html",
+      "markdown": "docs/04-资料与记忆测试情节.md",
+      "title": "04-资料与记忆测试情节",
+      "source_sha256": "161129a0e7a3e2865cca395ac6eb8e7541eae0a4377e3b973fcfd7ce6f4fdb06",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/NWZpwobjFiaqGwksPSnc0IypnNe",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "26f5aa35bc2c50ea2f1e1e8a5062bc2b582eb2d41bc779c555a92f251e186cb6",
+      "feishu_import_markdown_sha256": "a4e837f980c437b445246fa23e8ec64d489310567c9cdca9233a35311cb89916"
+    },
+    {
+      "source": "personal-agent-memory-rehearsal-2026-10-30.html",
+      "markdown": "docs/05-资料与记忆纸面演练.md",
+      "title": "05-资料与记忆纸面演练",
+      "source_sha256": "955f5cb91ae56ac50466e0132d4db3da7102f8deb2ec7629a6eb2c74d2667a88",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/UICawyGWyiHkgSkSdzBclib2nce",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "4aea4b429d2203aa38bfe336b45117f0afa5b10078b80ad7481b979cd6faf58d",
+      "feishu_import_markdown_sha256": "acbf74f221184860c990464d692061cf829af7f291f1ff80243796e043c5a206"
+    },
+    {
+      "source": "ai-news-samples-2026-10-29.html",
+      "markdown": "docs/06-AI早报与重大提醒样稿-2026-10-29.md",
+      "title": "06-AI早报与重大提醒样稿-2026-10-29",
+      "source_sha256": "32dc90891226891c25f008c91574a27479875e63c82b375c2746b0da1d98ab13",
+      "feishu_status": "native_child_document_verified",
+      "feishu_url": "https://my.feishu.cn/wiki/TxIdw1MBpiXP8YkKPIFckbkin4f",
+      "verification": {
+        "parent_list_visible": true,
+        "opening_content_checked": true,
+        "ending_content_checked": true
+      },
+      "markdown_sha256": "afdede491a196b25ee537c92ee946b6835b3593bbbed6730dc722e6ce7f83af3",
+      "feishu_import_markdown_sha256": "40eea60360803eafcf7d4f5a6b855f35ed3e0b6836db5ef477c618521b4d524b"
+    }
+  ],
+  "synced_on": "2026-10-30",
+  "github_repository_verified_private": true,
+  "formatting_note": "本地Markdown阅读版已清除行末空白；正文与已导入飞书的内容一致。分别记录本地版本和导入版本的摘要。"
+}
