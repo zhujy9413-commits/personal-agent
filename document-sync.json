@@ -2,22 +2,30 @@
   "repository": "https://github.com/zhujy9413-commits/personal-agent",
   "visibility": "private",
   "feishu_parent": "https://my.feishu.cn/wiki/Zsu4wg4ijizVMdkGo11cYlERnkg",
-  "project_status": "等待材料，收到后先阅读核对再制作",
+  "project_status": "材料已收到；独立QQ云服务器已创建，机器人部署及额度提醒待实施验收；微信未接入",
   "documents": [
     {
       "source": "personal-agent-v1-confirmation.html",
       "markdown": "docs/01-第一版范围与总验收.md",
       "title": "01-第一版范围与总验收",
-      "source_sha256": "8555be003610536951e0676d446aaaa6c54dbef3c4f381c95ef764cd4ea8105d",
-      "feishu_status": "native_child_document_verified",
+      "source_sha256": "0035862d0874d930c16687d4b74ed62d0ae23e711fd91f9cbd9ea0ff1de55dd3",
+      "feishu_status": "latest_addendum_verified",
       "feishu_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb",
       "verification": {
         "parent_list_visible": true,
         "opening_content_checked": true,
-        "ending_content_checked": true
+        "ending_content_checked": true,
+        "quota_72h_24h_visible": true,
+        "stop_assistance_visible": true,
+        "not_implemented_status_visible": true,
+        "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "364c18801df8b22487e257335a2668a0d1858821b9f6270b463da8f9e8e4efea",
-      "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65"
+      "markdown_sha256": "9b0965f91d567afa00dad6849e2b49d2fc46e4e1b5726d12dc435464894ed2ba",
+      "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65",
+      "local_updated_on": "2026-10-31",
+      "feishu_addendum_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb#NGNFd8q1ZocFQSxDJCXcI2Ppnlc",
+      "feishu_addendum_verified_on": "2026-10-31",
+      "feishu_update_mode": "新增2026-10-31补充章节；原2026-10-30正文保留为历史，最新补充优先；未全量替换旧正文"
     },
     {
       "source": "personal-agent-mvp-scope.html",
@@ -97,5 +105,5 @@
   ],
   "synced_on": "2026-10-30",
   "github_repository_verified_private": true,
-  "formatting_note": "本地Markdown阅读版已清除行末空白；正文与已导入飞书的内容一致。分别记录本地版本和导入版本的摘要。"
+  "formatting_note": "分别记录本地版本和最初导入飞书版本的摘要；latest_addendum_verified表示飞书已新增并核对最新补充章节，旧正文作为历史保留，并非全量重新导入。"
 }
