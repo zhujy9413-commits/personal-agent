@@ -2,14 +2,14 @@
   "repository": "https://github.com/zhujy9413-commits/personal-agent",
   "visibility": "private",
   "feishu_parent": "https://my.feishu.cn/wiki/Zsu4wg4ijizVMdkGo11cYlERnkg",
-  "project_status": "材料已收到；独立QQ云服务器已创建，机器人部署及额度提醒待实施验收；微信未接入",
+  "project_status": "QQ统一承接第一版入口，微信暂不实施；后台与独立模型请求已核验，固定插件已安装；QQ真实验收与原有personal agent能力仍待完成",
   "documents": [
     {
       "source": "personal-agent-v1-confirmation.html",
       "markdown": "docs/01-第一版范围与总验收.md",
       "title": "01-第一版范围与总验收",
-      "source_sha256": "0035862d0874d930c16687d4b74ed62d0ae23e711fd91f9cbd9ea0ff1de55dd3",
-      "feishu_status": "latest_addendum_verified",
+      "source_sha256": "09c9dce7b505a42f8587fce5bc79544097f863ee5669f9cc33fb7af1f698dd2f",
+      "feishu_status": "qq_scope_update_pending_sync",
       "feishu_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb",
       "verification": {
         "parent_list_visible": true,
@@ -20,42 +20,47 @@
         "not_implemented_status_visible": true,
         "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "9b0965f91d567afa00dad6849e2b49d2fc46e4e1b5726d12dc435464894ed2ba",
+      "markdown_sha256": "08090a10a2cd5a59c1a670f01d2eccdbed73ad3c62a89d27154483accbe99b4e",
       "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65",
       "local_updated_on": "2026-10-31",
       "feishu_addendum_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb#NGNFd8q1ZocFQSxDJCXcI2Ppnlc",
       "feishu_addendum_verified_on": "2026-10-31",
-      "feishu_update_mode": "新增2026-10-31补充章节；原2026-10-30正文保留为历史，最新补充优先；未全量替换旧正文"
+      "feishu_update_mode": "新增2026-10-31补充章节；原2026-10-30正文保留为历史，最新补充优先；未全量替换旧正文",
+      "feishu_previous_status": "latest_addendum_verified"
     },
     {
       "source": "personal-agent-mvp-scope.html",
       "markdown": "docs/02-MVP范围与验收标准.md",
       "title": "02-MVP范围与验收标准",
-      "source_sha256": "3aae0359f4304bfea4ba5763850ff1e8a5df0c2941ba18f30092f61a627f8c4c",
-      "feishu_status": "native_child_document_verified",
+      "source_sha256": "6fb74d6a241be1ac40c25eeff35a7c1e192e4b44e349e64ed20212ef3b312c5b",
+      "feishu_status": "qq_scope_update_pending_sync",
       "feishu_url": "https://my.feishu.cn/wiki/ImUOwKFLpiLcGTkIfLrcuZidnob",
       "verification": {
         "parent_list_visible": true,
         "opening_content_checked": true,
         "ending_content_checked": true
       },
-      "markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334",
-      "feishu_import_markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334"
+      "markdown_sha256": "78cc2190ac0f54f1c6d47903bde93554daa202d44298d568130920ca78cc67ae",
+      "feishu_import_markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334",
+      "feishu_previous_status": "native_child_document_verified",
+      "local_updated_on": "2026-10-31"
     },
     {
       "source": "ai-news-acceptance.html",
       "markdown": "docs/03-AI早报场景验收.md",
       "title": "03-AI早报场景验收",
-      "source_sha256": "27b743407960d971feffa085c0271773d388f70a4ecb43e5d6e237c476a81362",
-      "feishu_status": "native_child_document_verified",
+      "source_sha256": "d4beb54358e885c374ebcf2d5d784027c0416f7fad2208c89f3a130a9a1392a0",
+      "feishu_status": "qq_scope_update_pending_sync",
       "feishu_url": "https://my.feishu.cn/wiki/DufJwCp8si8z15kYGatcaEwSnub",
       "verification": {
         "parent_list_visible": true,
         "opening_content_checked": true,
         "ending_content_checked": true
       },
-      "markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4",
-      "feishu_import_markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4"
+      "markdown_sha256": "63862aa579ac01d51e0cd7d346204318ae1bb6c4b05dd3b6598bb8d4ef85033d",
+      "feishu_import_markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4",
+      "feishu_previous_status": "native_child_document_verified",
+      "local_updated_on": "2026-10-31"
     },
     {
       "source": "personal-agent-memory-tests.html",
@@ -105,5 +110,8 @@
   ],
   "synced_on": "2026-10-30",
   "github_repository_verified_private": true,
-  "formatting_note": "分别记录本地版本和最初导入飞书版本的摘要；latest_addendum_verified表示飞书已新增并核对最新补充章节，旧正文作为历史保留，并非全量重新导入。"
+  "formatting_note": "分别记录本地版本和最初导入飞书版本的摘要；latest_addendum_verified表示飞书已新增并核对最新补充章节，旧正文作为历史保留，并非全量重新导入。",
+  "requirements_baseline_updated_on": "2026-10-31",
+  "primary_channel": "QQ",
+  "wechat_scope": "deferred; explicitly replaced by QQ for v1"
 }
