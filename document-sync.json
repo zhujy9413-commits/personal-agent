@@ -2,14 +2,14 @@
   "repository": "https://github.com/zhujy9413-commits/personal-agent",
   "visibility": "private",
   "feishu_parent": "https://my.feishu.cn/wiki/Zsu4wg4ijizVMdkGo11cYlERnkg",
-  "project_status": "QQ已登录并连通AstrBot，独立模型请求可用；公开基础表情与新私有收藏库已配置，13项离线过滤测试通过；真实QQ收发、长期记忆及原有personal agent能力仍待验收",
+  "project_status": "飞书应用1.0.0已发布，仅本人可用；本人消息已收到、模型已生成回复；飞书令牌签发返回21001策略拒绝，真实回复未通过，主动发送未测",
   "documents": [
     {
       "source": "personal-agent-v1-confirmation.html",
       "markdown": "docs/01-第一版范围与总验收.md",
       "title": "01-第一版范围与总验收",
-      "source_sha256": "fb353c015b66b2b2182605388f4bc8ae01620f510ad81d7f74f31d4302a9b1b4",
-      "feishu_status": "latest_addendum_verified",
+      "source_sha256": "d97e79c2c40510edff637e0660ae445f699abf24a038c9305bb7f7ed8ec2964d",
+      "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb",
       "verification": {
         "parent_list_visible": true,
@@ -21,9 +21,9 @@
         "saved_to_cloud_visible": true,
         "qq_scope_addendum_visible": true
       },
-      "markdown_sha256": "067f0792b90488373cb74d4beb0212955739d43c710ddd1c8e781adab53989a9",
+      "markdown_sha256": "4c8a2231eb473dddef9201cd1d41213ac85233e11283aca88e1df8a70e660983",
       "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65",
-      "local_updated_on": "2026-10-31",
+      "local_updated_on": "2026-11-02",
       "feishu_addendum_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb#G0CHdoZtvoLoy4xD6Mmcng8NnQf",
       "feishu_addendum_verified_on": "2026-10-31",
       "feishu_update_mode": "新增2026-10-31 QQ统一入口补充章节；原正文保留为历史，最新补充优先；未全量替换旧正文",
@@ -33,8 +33,8 @@
       "source": "personal-agent-mvp-scope.html",
       "markdown": "docs/02-MVP范围与验收标准.md",
       "title": "02-MVP范围与验收标准",
-      "source_sha256": "2ca8058bce9d188ffa95c5a87ea0c309eee74c160f0f44b60880cf51760d9520",
-      "feishu_status": "latest_addendum_verified",
+      "source_sha256": "04c83499be6c0bdadc99352555b0cb2a3ec5f58f702c984fa0f2f27b716e7cca",
+      "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/ImUOwKFLpiLcGTkIfLrcuZidnob",
       "verification": {
         "parent_list_visible": true,
@@ -43,10 +43,10 @@
         "qq_scope_addendum_visible": true,
         "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "3ac5db916ae13f96ca9086014d632e0f801a72205c55e50f3759aa5ab3b3fa37",
+      "markdown_sha256": "f973212da01d27ad5a59ea0bc3e17a9657b945d2b32b585f70860be92d1c0009",
       "feishu_import_markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334",
-      "feishu_previous_status": "native_child_document_verified",
-      "local_updated_on": "2026-10-31",
+      "feishu_previous_status": "latest_addendum_verified",
+      "local_updated_on": "2026-11-02",
       "feishu_addendum_url": "https://my.feishu.cn/wiki/ImUOwKFLpiLcGTkIfLrcuZidnob#FGeOddzasoNK4uxLwxDcqPz8n1c",
       "feishu_addendum_verified_on": "2026-10-31",
       "feishu_update_mode": "新增2026-10-31 QQ统一入口补充章节；原正文保留为历史，最新补充优先；未全量替换旧正文"
@@ -55,8 +55,8 @@
       "source": "ai-news-acceptance.html",
       "markdown": "docs/03-AI早报场景验收.md",
       "title": "03-AI早报场景验收",
-      "source_sha256": "d4beb54358e885c374ebcf2d5d784027c0416f7fad2208c89f3a130a9a1392a0",
-      "feishu_status": "latest_addendum_verified",
+      "source_sha256": "7db4864f1a147a601969b7e5eaaabeee1d437da07599915bafab8db3e6e5baf2",
+      "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/DufJwCp8si8z15kYGatcaEwSnub",
       "verification": {
         "parent_list_visible": true,
@@ -65,10 +65,10 @@
         "qq_scope_addendum_visible": true,
         "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "63862aa579ac01d51e0cd7d346204318ae1bb6c4b05dd3b6598bb8d4ef85033d",
+      "markdown_sha256": "c779baf695dc4eacba57340830e248bd617fc8fc323bd1f93b4f7d0059f6152f",
       "feishu_import_markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4",
-      "feishu_previous_status": "native_child_document_verified",
-      "local_updated_on": "2026-10-31",
+      "feishu_previous_status": "latest_addendum_verified",
+      "local_updated_on": "2026-11-02",
       "feishu_addendum_url": "https://my.feishu.cn/wiki/DufJwCp8si8z15kYGatcaEwSnub#K9hNdCf3loZC7Bxxcqwc7vBYnYc",
       "feishu_addendum_verified_on": "2026-10-31",
       "feishu_update_mode": "新增2026-10-31 QQ入口补充章节；原正文保留为历史，最新补充优先；未全量替换旧正文"
@@ -122,9 +122,11 @@
   "synced_on": "2026-10-30",
   "github_repository_verified_private": true,
   "formatting_note": "分别记录本地版本和最初导入飞书版本的摘要；latest_addendum_verified表示飞书已新增并核对最新补充章节，旧正文作为历史保留，并非全量重新导入。",
-  "requirements_baseline_updated_on": "2026-10-31",
-  "primary_channel": "QQ",
-  "wechat_scope": "deferred; explicitly replaced by QQ for v1",
-  "status_note": "飞书最新补充已核对保存；本地部署细节会随验收推进更新，补充章节不表示原正文被全量替换或功能已验收。",
-  "latest_addenda_synced_on": "2026-10-31"
+  "requirements_baseline_updated_on": "2026-11-02",
+  "primary_channel": "Feishu",
+  "wechat_scope": "deferred",
+  "status_note": "2026-11-02飞书入口补充已更新本地，飞书文档补充同步待执行；应用发布不代表真实收发或完整产品验收通过。",
+  "latest_addenda_synced_on": "2026-10-31",
+  "qq_scope": "deferred_due_to_account_login_verification",
+  "webchat_status": "real_text_round_trip_and_new_session_persona_test_passed; local_SSH_tunnel_only; mobile_and_notifications_unconfigured"
 }
