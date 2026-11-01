@@ -8,7 +8,7 @@
       "source": "personal-agent-v1-confirmation.html",
       "markdown": "docs/01-第一版范围与总验收.md",
       "title": "01-第一版范围与总验收",
-      "source_sha256": "d97e79c2c40510edff637e0660ae445f699abf24a038c9305bb7f7ed8ec2964d",
+      "source_sha256": "e8e0f1831d6de4548d53af2ea3d72634ff6100a49d877a94777b1aef73500d47",
       "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb",
       "verification": {
@@ -21,7 +21,7 @@
         "saved_to_cloud_visible": true,
         "qq_scope_addendum_visible": true
       },
-      "markdown_sha256": "4c8a2231eb473dddef9201cd1d41213ac85233e11283aca88e1df8a70e660983",
+      "markdown_sha256": "a6a36fcce42aa1970c18904d73e95c997593565f0dec7a5961118590d0de7915",
       "feishu_import_markdown_sha256": "d2c6ffce1bc0ea57a9697b068d0d58901d094151a2f5a3274e0ca2085fa75b65",
       "local_updated_on": "2026-11-02",
       "feishu_addendum_url": "https://my.feishu.cn/wiki/NV6LwXsF6idiFrkYIYScRujXnVb#G0CHdoZtvoLoy4xD6Mmcng8NnQf",
@@ -33,7 +33,7 @@
       "source": "personal-agent-mvp-scope.html",
       "markdown": "docs/02-MVP范围与验收标准.md",
       "title": "02-MVP范围与验收标准",
-      "source_sha256": "04c83499be6c0bdadc99352555b0cb2a3ec5f58f702c984fa0f2f27b716e7cca",
+      "source_sha256": "ad21494769c75cd42460eaa719de667816137caa7cbecfb6549853da6281d87d",
       "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/ImUOwKFLpiLcGTkIfLrcuZidnob",
       "verification": {
@@ -43,7 +43,7 @@
         "qq_scope_addendum_visible": true,
         "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "f973212da01d27ad5a59ea0bc3e17a9657b945d2b32b585f70860be92d1c0009",
+      "markdown_sha256": "df9244ce13ca74ef9dd0a441f5548284fc508988b1b4a786393d6f7e31c52988",
       "feishu_import_markdown_sha256": "1d86084a7b740a7c659c4c9ee1c308313009e6bf78a125578f81aa9fc428d334",
       "feishu_previous_status": "latest_addendum_verified",
       "local_updated_on": "2026-11-02",
@@ -55,7 +55,7 @@
       "source": "ai-news-acceptance.html",
       "markdown": "docs/03-AI早报场景验收.md",
       "title": "03-AI早报场景验收",
-      "source_sha256": "7db4864f1a147a601969b7e5eaaabeee1d437da07599915bafab8db3e6e5baf2",
+      "source_sha256": "06b9ddbdf5c1c906134d6dab52777d41e402406d45f04d4a8ecdcc029877337b",
       "feishu_status": "local_updated_feishu_addendum_pending",
       "feishu_url": "https://my.feishu.cn/wiki/DufJwCp8si8z15kYGatcaEwSnub",
       "verification": {
@@ -65,7 +65,7 @@
         "qq_scope_addendum_visible": true,
         "saved_to_cloud_visible": true
       },
-      "markdown_sha256": "c779baf695dc4eacba57340830e248bd617fc8fc323bd1f93b4f7d0059f6152f",
+      "markdown_sha256": "0ed33dd28493592ea1eb82df344aa791f2477c8697b3d4d8fa8059e08b783556",
       "feishu_import_markdown_sha256": "9383e5ce97042c941425a945d70200a62a457afdc617a781a75de06fdaeca5d4",
       "feishu_previous_status": "latest_addendum_verified",
       "local_updated_on": "2026-11-02",
